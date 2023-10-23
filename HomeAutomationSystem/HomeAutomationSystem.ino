@@ -1,11 +1,3 @@
-/*
-night time = pir, LDR, rain
-- LDR detects night/dark
-- pir detects movement, led turns on
-- rain detects
-- give notif / print "weather: raining"
-*/
-
 #include <Keypad.h>
 #include <Servo.h>
 #include <Wire.h>
