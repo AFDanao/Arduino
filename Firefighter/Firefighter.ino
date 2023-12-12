@@ -40,51 +40,51 @@ void loop(){
       if(digitalRead(up_button)==LOW)
       {
         char msg[]="up";
-      radio.write(&msg,sizeof(msg));
-      delay(300);
+        radio.write(&msg,sizeof(msg));
+        delay(300);
         Serial.println("UP Button Pressed");
       }
       
        if(digitalRead(down_button)==LOW)
        {
         char msg[]="down";
-      radio.write(&msg,sizeof(msg));
-      delay(300);
+        radio.write(&msg,sizeof(msg));
+        delay(300);
         Serial.println("Down Button Pressed");
       }
        if(digitalRead(left_button)==LOW)
       {
         char msg[]="left";
-      radio.write(&msg,sizeof(msg));
-      delay(300);
+        radio.write(&msg,sizeof(msg));
+        delay(300);
         Serial.println("Left Button Pressed");
       }
        if(digitalRead(right_button)==LOW)
        {
         char msg[]="right";
-      radio.write(&msg,sizeof(msg));
-      delay(300);
+        radio.write(&msg,sizeof(msg));
+        delay(300);
         Serial.println("Rigth Button Pressed");
       }
        if(digitalRead(start_button)==LOW)
        {
         char msg[]="start";
-      radio.write(&msg,sizeof(msg));
-      delay(300);
+        radio.write(&msg,sizeof(msg));
+        delay(300);
         Serial.println("Start Button Pressed");
       }
        if(digitalRead(select_button)==LOW)
        {
         char msg[]="select";
-      radio.write(&msg,sizeof(msg));
-      delay(300);
+        radio.write(&msg,sizeof(msg));
+        delay(300);
         Serial.println("Select Button Pressed");
       }
        if(digitalRead(analog_button)==LOW)
        {
         char msg[]="analgobut";
-      radio.write(&msg,sizeof(msg));
-      delay(300);
+        radio.write(&msg,sizeof(msg));
+        delay(300);
         Serial.println("Analog Button Pressed");
       }
       Serial.print("\n X = "),Serial.print(analogRead(x_axis)),Serial.print(" \n Y = "), Serial.print(analogRead(y_axis));

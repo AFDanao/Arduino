@@ -9,7 +9,7 @@
 #define CSN_PIN 10
 
 const int RightMotorF= 3;
-const int RightMotorB= 4;
+const int RightMotorB= 4; 
 const int LeftMotorF= 5;
 const int LeftMotorB= 6;
 
